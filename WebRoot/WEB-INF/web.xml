@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+<display-name></display-name>
+
+  <servlet>
+    <servlet-name>userservlet</servlet-name>
+    <servlet-class>com.plane.servlet.userservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servletbuy</servlet-name>
+    <servlet-class>com.plane.servlet.servletbuy</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logoutservlet</servlet-name>
+    <servlet-class>com.plane.servlet.Logoutservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.plane.servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Info</servlet-name>
+    <servlet-class>com.plane.servlet.Info</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindOrderByUserId</servlet-name>
+    <servlet-class>com.plane.servlet.FindOrderByUserId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Deleteorder</servlet-name>
+    <servlet-class>com.plane.servlet.Deleteorder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Finduserbyname</servlet-name>
+    <servlet-class>com.plane.servlet.Finduserbyname</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Modifyuserservlet</servlet-name>
+    <servlet-class>com.plane.servlet.Modifyuserservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Searchflight</servlet-name>
+    <servlet-class>com.plane.servlet.Searchflight</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Selectallflights</servlet-name>
+    <servlet-class>com.plane.servlet.Selectallflights</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Updateservlet</servlet-name>
+    <servlet-class>com.plane.servlet.Updateservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoDelServlet</servlet-name>
+    <servlet-class>com.plane.servlet.DoDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoModServlet</servlet-name>
+    <servlet-class>com.plane.servlet.DoModServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Pageservlet</servlet-name>
+    <servlet-class>com.plane.servlet.Pageservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Validatecode</servlet-name>
+    <servlet-class>com.plane.servlet.Validatecode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RSAservlet</servlet-name>
+    <servlet-class>com.plane.servlet.RSAservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Userisexist</servlet-name>
+    <servlet-class>com.plane.servlet.Userisexist</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>userservlet</servlet-name>
+    <url-pattern>/userservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>servletbuy</servlet-name>
+    <url-pattern>/servletbuy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logoutservlet</servlet-name>
+    <url-pattern>/logoutservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Info</servlet-name>
+    <url-pattern>/Info</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindOrderByUserId</servlet-name>
+    <url-pattern>/findOrderByUserId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deleteorder</servlet-name>
+    <url-pattern>/deleteorder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Finduserbyname</servlet-name>
+    <url-pattern>/finduserbyname</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Modifyuserservlet</servlet-name>
+    <url-pattern>/modifyuserservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Searchflight</servlet-name>
+    <url-pattern>/searchflight</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Selectallflights</servlet-name>
+    <url-pattern>/selectallflights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Updateservlet</servlet-name>
+    <url-pattern>/updateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoDelServlet</servlet-name>
+    <url-pattern>/doDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoModServlet</servlet-name>
+    <url-pattern>/doModServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Pageservlet</servlet-name>
+    <url-pattern>/pageservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Validatecode</servlet-name>
+    <url-pattern>/validatecode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RSAservlet</servlet-name>
+    <url-pattern>/rsaservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Userisexist</servlet-name>
+    <url-pattern>/userisexist</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+
+</web-app>
